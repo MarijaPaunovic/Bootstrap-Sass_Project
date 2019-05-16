@@ -1,0 +1,52 @@
+/*********** OVERRIDES ************/
+
+a {
+    color: $color-greenish;
+    &:focus,
+    &:hover,
+    &:active {
+      color: darken($color-greenish, 10%);
+    }
+  }
+  
+.btn {
+  border-width: 2px;
+}
+ 
+.bg-primary {
+  background-color: $color-greenish !important;
+}
+  
+.bg-secondary {
+  background-color: $color-blueish !important;
+}
+  
+.text-primary {
+  color: $color-greenish !important;
+}
+  
+.text-secondary {
+  color: $color-blueish !important;
+}
+  
+.btn-primary {
+  background-color: $color-greenish;
+  border-color: $color-greenish;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($color-greenish, 10%);
+    border-color: darken($color-greenish, 10%);
+  }
+}
+  
+.btn-secondary {
+  background-color: $color-blueish;
+  border-color: $color-blueish;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($color-blueish, 10%);
+    border-color: darken($color-blueish, 10%);
+  }
+}

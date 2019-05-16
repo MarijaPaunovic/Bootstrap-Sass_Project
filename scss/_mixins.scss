@@ -1,0 +1,21 @@
+/*********** MIXINS ************/
+
+@mixin border-radius ($radius){
+  border-radius: $radius;
+}
+
+@mixin make-row($gutter: $grid-gutter-width) {
+  margin-left:  ($gutter / -2);
+  margin-right: ($gutter / -2);
+  @include clearfix();
+}
+  
+@mixin body-font() {
+  font-family: 'Lato';
+}
+  
+@mixin heading-font() {
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bolder;
+}
+  
