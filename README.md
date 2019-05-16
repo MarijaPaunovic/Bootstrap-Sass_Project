@@ -1,4 +1,4 @@
-# Bootstrap-Sass_Project
+# Bootstrap/Sass Project
 
 Responsive, Bootstrap/Sass project
 
