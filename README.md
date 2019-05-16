@@ -2,4 +2,4 @@
 
 Responsive, Bootstrap/Sass project
 
-Go to link: 
+To see project, please go to link: https://marija-paunovic-bootstrapsassproject.netlify.com/
